@@ -25,13 +25,21 @@
   background-size: cover;
 }
 
-.hero-img-container{
+/* .hero-img-container{
   background: url(./assets/hero-circle.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 .hero-btn{
+  border-color: #00FF88;
+}
+.hero-btn,.card-title{
   color: #00FF88;
   border-color: #00FF88;
+}
+.hero-button{
+  top: 1rem;
+right: 1.5rem;
+background-color: #00FF88;
 }
