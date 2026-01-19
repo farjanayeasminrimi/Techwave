@@ -1,25 +1,40 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TechWave</title>
-  <link rel="shortcut icon" href="./assets/clock.png" type="image/x-icon">
-  <link rel="stylesheet" href="style.css">
-  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-</head>
-<body class="bg-color inter-font">
-  <header>
-    <nav class="navbar">
-      <h1 class="logo">TechWave</h1>
-      <ul class="nav-menu">
-        <li class="list-item"><a href="" class="link-item">About</a></li>
-        <li class="list-item"><a href="" class="link-item">Episodes</a></li>
-        <li class="list-item"><a href="" class="link-item">Host</a></li>
-      </ul>
-      <button class="subscribe-btn">Subscribe</button>
-      <img src="./assets/hamburger-menu.png" alt="Hamburger Menu Icon" class="hamburger-menu">
-    </nav>
-  </header>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TechWave</title>
+    <link rel="shortcut icon" href="./assets/clock.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />  
+  </head>
+  <body class="bg-color inter-font">
+    <header>
+      <nav
+        class="navbar primary-color w-7xl m-auto flex justify-between items-center px-4 py-8"
+      >
+        <h1 class="logo text-4xl font-bold">
+          Tech<span class="wave bg-gradient-to-t from-orange-500 via-pink-500 to-purple-500 bg-clip-text text-transparent">Wave</span>
+        </h1>
+        <ul class="nav-menu flex items-center ">
+          <li class="list-item mr-8">
+            <a href="" class="link-item text-base">About</a>
+          </li>
+          <li class="list-item mr-8">
+            <a href="" class="link-item text-base">Episodes</a>
+          </li>
+          <li class="list-item">
+            <a href="" class="link-item text-base">Host</a>
+          </li>
+        </ul>
+        <button class="subscribe-btn text-base bg-gradient-to-tr from-orange-500 via-pink-500 to-purple-500 hover:from-opacity-0 hover:to-opacity-0 py-2 px-4 rounded-4xl border-none outline-none">Subscribe <i class="fa-solid fa-arrow-right"></i></button>
+        <img
+          src="./assets/hamburger-menu.png"
+          alt="Hamburger Menu Icon"
+          class="hamburger-menu w-[2rem] lg:hidden md:hidden sm:block"
+        />
+      </nav>
+    </header>
+  </body>
 </html>
