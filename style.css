@@ -43,6 +43,14 @@
 right: 1.5rem;
 background-color: #00FF88;
 }
+/* About section */
 .horizental-line{
   color: #ffffff0f;
+}
+/* Why choose section */
+.why-choose-section{
+  background-color: #230E3D;
+}
+.choose-box{
+  background-color: rgba(53, 17, 101, 0.4);
 }
