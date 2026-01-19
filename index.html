@@ -7,7 +7,13 @@
     <link rel="shortcut icon" href="./assets/clock.png" type="image/x-icon" />
     <link rel="stylesheet" href="style.css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />  
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body class="bg-color inter-font">
     <header>
@@ -15,9 +21,12 @@
         class="navbar primary-color max-w-7xl m-auto flex justify-between items-center px-4 py-8"
       >
         <h1 class="logo text-4xl font-bold">
-          Tech<span class="wave bg-gradient-to-t from-orange-500 via-pink-500 to-purple-500 bg-clip-text text-transparent">Wave</span>
+          Tech<span
+            class="wave bg-gradient-to-t from-orange-500 via-pink-500 to-purple-500 bg-clip-text text-transparent"
+            >Wave</span
+          >
         </h1>
-        <ul class="nav-menu lg:flex md:flex hidden items-center ">
+        <ul class="nav-menu lg:flex md:flex hidden items-center">
           <li class="list-item mr-8">
             <a href="" class="link-item text-base">About</a>
           </li>
@@ -28,13 +37,44 @@
             <a href="" class="link-item text-base">Host</a>
           </li>
         </ul>
-        <button class="subscribe-btn text-base bg-gradient-to-tr from-orange-500 via-pink-500 to-purple-500 hover:from-opacity-0 hover:to-opacity-0 py-2 px-4 rounded-4xl border-none outline-none lg:block md:block hidden">Subscribe <i class="fa-solid fa-arrow-right"></i></button>
+        <button
+          class="subscribe-btn text-base bg-gradient-to-tr from-orange-500 via-pink-500 to-purple-500 py-2 px-6 rounded-4xl border-none outline-none lg:block md:block hidden"
+        >
+          Subscribe <i class="fa-solid fa-arrow-right"></i>
+        </button>
         <img
           src="./assets/hamburger-menu.png"
           alt="Hamburger Menu Icon"
           class="hamburger-menu w-[2rem] lg:hidden md:hidden sm:block"
         />
       </nav>
+      <div class="hero-section primary-color">
+        <div class="hero-content-container max-w-lg m-auto align-center text-center">
+          <div class="hero-img-container max-w-xs m-auto justify-items-center items-center">
+            <img src="./assets/microphone.png" alt="Microphone Icon" class="hero-mic" />
+            <button class="hero-button">NEW</button>
+          </div>
+          <div class="hero-content mt-12">
+            <h1 class="hero-title text-5xl font-extrabold mb-4">TechWave</h1>
+            <p class="description text-sm ">
+              Your daily dose of tech insights, productivity hacks, and personal
+              growth
+            </p>
+            <div class="buttons mt-4 flex gap-4 justify-center">
+              <button
+                class="subscribe-btn text-base bg-gradient-to-tr from-orange-500 via-pink-500 to-purple-500 hover:from-opacity-0 hover:to-opacity-0 py-2 px-6 rounded-4xl border-none outline-none"
+              >
+               <i class="fa-brands fa-spotify"></i>&nbsp;Listen on Spotify
+              </button>
+              <button
+                class="hero-btn text-base bg-transparent py-2 px-6 rounded-4xl border outline-none"
+              >
+                <i class="fa-solid fa-envelope"></i>&nbsp; Subscribe
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
   </body>
 </html>

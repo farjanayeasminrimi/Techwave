@@ -17,3 +17,21 @@
   color: #00FF88;
 }
 /* Main styles */
+/* hero section */
+.hero-section{
+  background-image: url(./assets/hero-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-img-container{
+  background: url(./assets/hero-circle.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero-btn{
+  color: #00FF88;
+  border-color: #00FF88;
+}
