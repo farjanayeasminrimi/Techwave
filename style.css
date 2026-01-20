@@ -70,6 +70,14 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+/* Circle animation */
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
 @media screen and (max-width: 576px) {
   .footer-section {
     background-size: 100% 100%;
