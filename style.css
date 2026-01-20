@@ -25,6 +25,7 @@
   background-size: cover;
 }
 
+
 /* .hero-img-container{
   background: url(./assets/hero-circle.png);
   background-position: center;
@@ -53,4 +54,12 @@ background-color: #00FF88;
 }
 .choose-box, .host-social-container{
   background-color: rgba(53, 17, 101, 0.4);
+}
+/* Footer section */
+
+.footer-section{
+  background-image: url(./assets/footer-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
